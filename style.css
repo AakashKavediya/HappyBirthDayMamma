@@ -46,6 +46,8 @@
     color: white;
   }
   .p4 .box {
+    margin-left: 20px;
+    margin-right: 20px;
     width: 130px;
     height: 120%;
     padding: 5px;
