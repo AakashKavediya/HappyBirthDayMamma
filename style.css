@@ -1,39 +1,101 @@
-*
-{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-html
-{
+  }
+  html
+  /* {
+      width: 980px;
+      padding: 0;
+      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
+  } */
+  .p1 {
+    height: 100vh;
+    width: 100%;
+    background: url(https://media1.giphy.com/media/KehbREbc68gckNA7x6/giphy.gif)
+      no-repeat center;
+    /* background-clip: border-box; */
+    background-size: 970px;
+  }
+  .p2 {
+    width: 100%;
+    height: 100vh;
+    background: url(https://i.pinimg.com/originals/81/2f/09/812f0948d4de3d65d5c1cb25989ddb79.gif)
+      no-repeat center;
+    background-size: cover;
+  }
+  .p3 {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background: url(https://cutewallpaper.org/21/blue-background-gif/Weird-background-GIFs-Get-the-best-GIF-on-GIPHY.gif)
+      no-repeat center;
+    background-size: cover;
+  }
+  .p3 p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-}
-#page1
-{
-    height: 100vh;
+    color: white;
+  }
+  .p3 h2 {
+    text-align: center;
+    color: white;
+  }
+  .p4 .box {
+    width: 130px;
+    height: 120%;
+    padding: 5px;
+    border: 3px solid black;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+  }
+  .p4 h2 {
+    text-align: center;
+    border: 8px double black;
+  }
+  .p4 .box h5 {
+    font-family: "Girassol", cursive;
+  }
+  .p4 .box img {
     width: 100%;
-    background: url(https://www.funimada.com/assets/images/cards/big/bday-416.gif) no-repeat center;
-}
-#page1 img
-{
-    height: 100vh;
-    width: 100%;
-}
-#page2
-{
-    height: 100vh;
-    width: 100%;
-    background: url(https://png.pngtree.com/thumb_back/fw800/background/20201210/pngtree-birthday-cake-yellow-gift-box-balloon-background-image_505904.jpg) no-repeat center;
-}
-#page3
-{
-    height: 100vh;
-    width: 100%;
-    background: url(https://i.pinimg.com/originals/54/a4/77/54a4778b844d6b4965f4fe047990a53d.gif) /*no-repeat*/ center;
-}
-#page4
-{
-    height: 100vh;
-    width: 100%;
-    background: url(https://i.pinimg.com/originals/a1/0f/2a/a10f2acf3181742c61b9509da52c9336.gif) no-repeat center;
-}
+    height: 130px;
+  }
+  .p4 #man {
+    float: right;
+    display: block;
+  }
+  .p5 video {
+    width: 80%;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .p5 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .p5 h2 {
+    text-align: center;
+    border: 8px double black;
+    margin-top: 10px;
+  }
+  .p6 h3 {
+    text-align: center;
+    border: 6px double black;
+  }
+  .p6 p {
+    margin-top: 20px;
+    padding: 20px;
+    color: black;
+    font-family: "Dancing Script", cursive;
+  }
+  
