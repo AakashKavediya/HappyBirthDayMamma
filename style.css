@@ -100,11 +100,13 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    /* background-color: orangered; */
   }
   .p5 h2 {
     text-align: center;
     border: 8px double black;
     margin-top: 10px;
+    background-color: white;
   }
   .p6 h3 {
     text-align: center;
@@ -146,4 +148,16 @@
    .p4 .box h5:hover
    {
      color:orangered;
+   }
+   iframe
+   {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     margin-left: 10px;
+     background-color: orangered;
+   }
+   audio
+   {
+     display: none;
    }
