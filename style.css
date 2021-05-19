@@ -22,7 +22,7 @@
   .p2 {
     width: 100%;
     height: 100vh;
-    background: url(https://i.pinimg.com/originals/81/2f/09/812f0948d4de3d65d5c1cb25989ddb79.gif)
+    background: url(https://media.tenor.com/images/eb5e916b62121af50565c5aba8ca5385/tenor.gif)
       no-repeat center;
     background-size: cover;
   }
@@ -52,35 +52,43 @@
     margin-right: auto;
     width: 90%;
     margin-bottom: 20px;
+    background-color: #fff;
   }
   .p4 .box {
     margin-left: 20px;
     margin-right: 20px;
-    width: 120px;
+    width: 130px;
     height: 120%;
     padding: 5px;
     border: 3px solid black;
     text-align: center;
     display: block;
     margin-top: 10px;
+    background-color: #fff;
   }
   .p4 h2 {
     text-align: center;
     border: 8px double black;
+    background-color: #fff;
   }
   .p4 .box h5 {
     font-family: "Girassol", cursive;
   }
   .p4 .box img {
     width: 100%;
-    height: 170px;
+    height: 190px;
   }
   .p4 #man {
     float: right;
     display: block;
   }
+  .p4
+  {
+    background-image: linear-gradient(skyblue,pink);
+    padding-bottom: 20px;
+  }
   .p5 video {
-    width: 80%;
+    width: 98%;
     /* text-align: center; */
     margin-left: auto;
     margin-right: auto;
@@ -129,3 +137,13 @@
       /* border-bottom: 1px solid #000; */
       font-family: 'Pattaya', sans-serif;
   }
+  /* .box:hover
+  {
+    border: 3px solid red;
+    width: 140px;
+  }
+   */
+   .p4 .box h5:hover
+   {
+     color:orangered;
+   }
